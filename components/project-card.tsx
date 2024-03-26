@@ -51,7 +51,7 @@ export default function Project({
           </p>
 
           <div className="flex items-center mt-auto gap-5 text-slate-700 dark:text-slate-500">
-            {demoUrl !== "" && (
+            {demoUrl && (
               <a title={demoUrl} href={demoUrl} target="_blank">
                 <FaLink
                   size={24}
@@ -60,7 +60,7 @@ export default function Project({
               </a>
             )}
 
-            {githubUrl !== "" && (
+            {githubUrl && (
               <a title={githubUrl} href={githubUrl} target="_blank">
                 <SiGithub
                   size={24}

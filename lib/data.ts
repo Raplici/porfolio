@@ -50,7 +50,7 @@ export const projectsData = [
     title: "Portfolio Website",
     description: "A website that provides information about myself.",
     githubUrl: "https://github.com/Raplici/porfolio",
-    demoUrl: "",
+    demoUrl: null,
     imageUrl: personalwebImg,
   },
 ] as const;
