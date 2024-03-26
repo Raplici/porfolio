@@ -69,7 +69,7 @@ export default function Intro() {
               setActiveSection("Contact");
               setTimeOfLastClick(Date.now());
             }}
-            className="min-w-[128px] group flex px-7 py-3 items-center gap-2 rounded-full bg-gray-900 text-white outline-none transition hover:scale-110 hover:bg-gray-950 dark:hover:bg-gray-800 active:scale-105"
+            className="min-w-[128px] group flex px-7 py-3 items-center gap-2 rounded-full bg-gray-900 text-white outline-none transition hover:scale-110 hover:bg-gray-950 dark:hover:bg-gray-800"
           >
             Contact me
             <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
@@ -78,7 +78,7 @@ export default function Intro() {
           {/* TODO: add resume url */}
           <a
             href="#"
-            className="cursor-pointer font-bold text-slate-700 dark:text-slate-400 flex px-5 py-3 items-center gap-1 bg-transparent outline-none transition hover:scale-110 active:scale-105"
+            className="cursor-pointer font-bold text-slate-700 dark:text-slate-400 flex px-5 py-3 items-center gap-1 bg-transparent outline-none transition hover:scale-110"
           >
             <AiFillFileText />
             RESUME
