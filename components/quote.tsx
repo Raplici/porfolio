@@ -15,7 +15,7 @@ export default function Quote() {
           <div className="relative z-10">
             <p className="text-gray-800 sm:text-xl dark:text-slate-300">
               <em>
-                " Don&apos;t wait for inspiration. It comes while working. "
+                "Don&apos;t wait for inspiration. It comes while working."
               </em>
             </p>
           </div>
