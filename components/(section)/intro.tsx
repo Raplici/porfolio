@@ -75,9 +75,10 @@ export default function Intro() {
             <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
           </Link>
 
-          {/* TODO: add resume url */}
           <a
-            href="#"
+            title="Resume"
+            href="https://drive.google.com/file/d/1vfzwqwX1tkeSz3t94lZAL9mV0y3fISjQ/view?usp=sharing"
+            target="_blank"
             className="cursor-pointer font-bold text-slate-700 dark:text-slate-400 flex px-5 py-3 items-center gap-1 bg-transparent outline-none transition hover:scale-110"
           >
             <AiFillFileText />
